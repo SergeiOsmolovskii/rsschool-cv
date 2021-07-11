@@ -7,6 +7,7 @@ __Contact__
 
 __About me__
 
+I'm electrical engineer for 3 years. And now i am going to change my profession. My goal is to master a new specialty for myself and continue to develop in the field of front-end.
 
 __Technical skills__
 
@@ -40,6 +41,8 @@ function validParentheses(parens) {
 ```
 
 __Work experience__
+
+I'm electrical engineer  and I have no experience in commercial IT development.
 
 __Education__
 
