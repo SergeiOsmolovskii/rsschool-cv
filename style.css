@@ -68,7 +68,7 @@ footer img {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
     padding: 10px;
 }
