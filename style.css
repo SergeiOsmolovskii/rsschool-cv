@@ -35,6 +35,21 @@ main {
     background: linear-gradient(#4850a7, #cebcbc);
 }
 
+footer {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: linear-gradient(#cebcbc, #4850a7);
+}
+
+footer img {
+    height: 50px;
+}
+
 .user-photo {
     width: 30%;
 }
@@ -61,3 +76,4 @@ main {
 .title {
     margin-bottom: 15px;
 }
+
