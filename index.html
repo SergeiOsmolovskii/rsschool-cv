@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="user-photo">
+            <img src="img/photo.jpg" alt="photo">
+        </div>
+        
+        <div class="contact">
+            <h1>Asmalouski Siarhei</h1>
+            <p>Phone: 8 (025) 725-67-82</p>
+            <p>E-mail: osmolovskii_sergei@mail.ru</p>
+        </div>
+    
+    </header>
+
+    <main>
+
+        <div class="about-me">
+            <h2 class="title">About me</h2>
+            <p>
+                I’m electrical engineer for 3 years. And now i am going to change my profession. My goal is to master a
+                new specialty for myself and continue to develop in the field of front-end.
+            </p>
+        </div>
+
+        <div class="technical-skills">
+            <h2 class="title">Technical skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>SASS</li>
+                <li>Bootstrap 4</li>
+                <li>Java Script</li>
+            </ul>
+        </div>
+
+        <div class="language">
+            <h2 class="title">Language</h2>
+            <ul>
+                <li>English: A2 (Pre-Intermediate)</li>
+            </ul>
+        </div>
+
+        <div class="sample-code">
+            <h2 class="title">Sample code</h2>
+
+            <pre>
+                <code>
+function validParentheses(par) {
+    const openBracket = ['(','[','{']; 
+    const closeBracket = [')',']','}'];
+    let stack = [];
+    for(let i=0; i &lt; par.length; i++) {
+        if (openBracket.includes(par[i])) {
+        stack.push(par[i]);
+        } else {
+            if (closeBracket.indexOf(par[i]) === openBracket.indexOf(stack[stack.length-1])) {
+                stack.pop();
+            } else return false; 
+        }   
+    }
+    if (stack.length == 0) {
+        return true;
+    } else return false;
+}
+                </code>
+            </pre>
+        </div>
+
+
+        <div class="work-experience">
+            <h2 class="title">Work experience</h2>
+            <p>
+                I’m electrical engineer and I have no experience in commercial IT development.
+            </p>
+        </div>
+
+        <div class="education">
+            <h2 class="title">Education</h2>
+            <h3>Belarusian-Russian University</h3>
+            <ul>
+                <li>Electric Drive and Automation of Industrial Units. Automatic Electric Drives (2013-2018).</li>
+                <li>Master’s degree course electrical power industry and electrical engineering (2018-2019).</li>
+            </ul>
+            <h3>Courses</h3>
+            <ul>
+                <li>Peter the Great St.Petersburg Polytechnic University. Intelligent Control Systems (2017).</li>
+            </ul>
+        </div>
+
+    </main>
+
+    <footer>
+
+        <div class="github-link">
+            <a href="https://github.com/SergeiOsmolovskii">
+                <img src="img/github-svgrepo-com.svg" alt="github">
+            </a>
+        </div>
+        
+        <div>
+            <p>2021</p>
+        </div>
+        
+        <div class="rsschool-link">
+            <a href="https://rs.school/js/">
+                <img src="img/rsschool.svg" alt="rsschool-link">
+            </a>
+        </div>
+    
+    </footer>
+
+</body>
+
+</html>
