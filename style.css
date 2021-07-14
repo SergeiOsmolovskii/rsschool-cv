@@ -35,6 +35,10 @@ main {
     background: linear-gradient(#4850a7, #cebcbc);
 }
 
+code {
+    font-size: 1.3em;
+}
+
 footer {
     display: flex;
     align-items: center;
@@ -76,4 +80,3 @@ footer img {
 .title {
     margin-bottom: 15px;
 }
-

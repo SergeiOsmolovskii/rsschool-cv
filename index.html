@@ -53,6 +53,33 @@
             </ul>
         </div>
 
+        <div class="sample-code">
+            <h2 class="title">Sample code</h2>
+
+            <pre>
+                <code>
+function validParentheses(par) {
+    const openBracket = ['(','[','{']; 
+    const closeBracket = [')',']','}'];
+    let stack = [];
+    for(let i=0; i &lt; par.length; i++) {
+        if (openBracket.includes(par[i])) {
+        stack.push(par[i]);
+        } else {
+            if (closeBracket.indexOf(par[i]) === openBracket.indexOf(stack[stack.length-1])) {
+                stack.pop();
+            } else return false; 
+        }   
+    }
+    if (stack.length == 0) {
+        return true;
+    } else return false;
+}
+                </code>
+            </pre>
+        </div>
+
+
         <div class="work-experience">
             <h2 class="title">Work experience</h2>
             <p>
