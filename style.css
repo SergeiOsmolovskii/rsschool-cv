@@ -54,6 +54,11 @@ footer img {
     height: 50px;
 }
 
+.phone-number, .email {
+    text-decoration: none;
+    color: #000000;
+}
+
 .user-photo {
     width: 30%;
 }
@@ -68,12 +73,12 @@ footer img {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
     padding: 10px;
 }
 
-.contact p {
+.contact li {
     font-style: italic;
 }
 

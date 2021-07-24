@@ -13,29 +13,38 @@
 
     <header>
 
-        <div class="user-photo">
+        <figure class="user-photo">
             <img src="img/photo.jpg" alt="photo">
-        </div>
-        
+        </figure>
+
         <div class="contact">
             <h1>Asmalouski Siarhei</h1>
-            <p>Phone: 8 (025) 725-67-82</p>
-            <p>E-mail: osmolovskii_sergei@mail.ru</p>
+            <ul>
+                <li>Mogilev, Belarus</li>
+                <li>
+                    <span>Phone:</span>
+                    <a class="phone-number" href="tel:80287256782">8 (025) 725-67-82</a>
+                </li>
+                <li>
+                    <span>E-mail:</span>
+                    <a class="email" href="mailto:osmolovskii_sergei@mail.ru">osmolovskii_sergei@mail.ru</a>
+                </li>
+            </ul>
         </div>
-    
+
     </header>
 
     <main>
 
-        <div class="about-me">
+        <section class="about-me">
             <h2 class="title">About me</h2>
             <p>
                 I’m electrical engineer for 3 years. And now i am going to change my profession. My goal is to master a
                 new specialty for myself and continue to develop in the field of front-end.
             </p>
-        </div>
+        </section>
 
-        <div class="technical-skills">
+        <section class="technical-skills">
             <h2 class="title">Technical skills</h2>
             <ul>
                 <li>HTML</li>
@@ -44,16 +53,36 @@
                 <li>Bootstrap 4</li>
                 <li>Java Script</li>
             </ul>
-        </div>
+        </section>
 
-        <div class="language">
+        <section class="language">
             <h2 class="title">Language</h2>
             <ul>
                 <li>English: A2 (Pre-Intermediate)</li>
             </ul>
-        </div>
+        </section>
 
-        <div class="sample-code">
+        <section class="work-experience">
+            <h2 class="title">Work experience</h2>
+            <p>
+                I’m electrical engineer and I have no experience in commercial IT development.
+            </p>
+        </section>
+
+        <section class="education">
+            <h2 class="title">Education</h2>
+            <h3>Belarusian-Russian University</h3>
+            <ul>
+                <li>Electric Drive and Automation of Industrial Units. Automatic Electric Drives (2013-2018).</li>
+                <li>Master’s degree course electrical power industry and electrical engineering (2018-2019).</li>
+            </ul>
+            <h3>Courses</h3>
+            <ul>
+                <li>Peter the Great St.Petersburg Polytechnic University. Intelligent Control Systems (2017).</li>
+            </ul>
+        </section>
+
+        <section class="sample-code">
             <h2 class="title">Sample code</h2>
 
             <pre>
@@ -77,28 +106,7 @@ function validParentheses(par) {
 }
                 </code>
             </pre>
-        </div>
-
-
-        <div class="work-experience">
-            <h2 class="title">Work experience</h2>
-            <p>
-                I’m electrical engineer and I have no experience in commercial IT development.
-            </p>
-        </div>
-
-        <div class="education">
-            <h2 class="title">Education</h2>
-            <h3>Belarusian-Russian University</h3>
-            <ul>
-                <li>Electric Drive and Automation of Industrial Units. Automatic Electric Drives (2013-2018).</li>
-                <li>Master’s degree course electrical power industry and electrical engineering (2018-2019).</li>
-            </ul>
-            <h3>Courses</h3>
-            <ul>
-                <li>Peter the Great St.Petersburg Polytechnic University. Intelligent Control Systems (2017).</li>
-            </ul>
-        </div>
+        </section>
 
     </main>
 
@@ -109,17 +117,17 @@ function validParentheses(par) {
                 <img src="img/github-svgrepo-com.svg" alt="github">
             </a>
         </div>
-        
+
         <div>
             <p>2021</p>
         </div>
-        
+
         <div class="rsschool-link">
             <a href="https://rs.school/js/">
                 <img src="img/rsschool.svg" alt="rsschool-link">
             </a>
         </div>
-    
+
     </footer>
 
 </body>
