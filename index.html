@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <title>CV</title>
 </head>
 
@@ -13,100 +16,189 @@
 
     <header>
 
-        <figure class="user-photo">
-            <img src="img/photo.jpg" alt="photo">
-        </figure>
-
-        <div class="contact">
-            <h1>Asmalouski Siarhei</h1>
+        <nav class="desktop-nav">
             <ul>
-                <li>Mogilev, Belarus</li>
-                <li>
-                    <span>Phone:</span>
-                    <a class="phone-number" href="tel:80287256782">8 (025) 725-67-82</a>
-                </li>
-                <li>
-                    <span>E-mail:</span>
-                    <a class="email" href="mailto:osmolovskii_sergei@mail.ru">osmolovskii_sergei@mail.ru</a>
-                </li>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#about_me">About me</a></li>
+                <li><a href="#experience">My projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Technical skills</a></li>
             </ul>
+        </nav>
+
+        <nav class="mobile-nav">
+            <ul>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#about_me">About me</a></li>
+                <li><a href="#experience">My projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Technical skills</a></li>
+            </ul>
+        </nav>
+
+        <div class="menu-link ">
+            <span class="menu-link-line"></span>
         </div>
 
     </header>
 
     <main>
+        <h1 class="hidden"> Asmalouski Siarhei - Junior Front-End Developer Resume</h1>
+        <aside class="user-main-information">
+            <section class="contact" id="contacts">
 
-        <section class="about-me">
-            <h2 class="title">About me</h2>
-            <p>
-                I’m electrical engineer for 3 years. And now i am going to change my profession. My goal is to master a
-                new specialty for myself and continue to develop in the field of front-end.
-            </p>
-        </section>
+                <div>
+                    <figure class="user-photo">
+                        <img src="./img/photo.jpg" alt="photo">
+                    </figure>
+                    <h2 class="user-name">Asmalouski Siarhei</h2>
+                </div>
 
-        <section class="technical-skills">
-            <h2 class="title">Technical skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>SASS</li>
-                <li>Bootstrap 4</li>
-                <li>Java Script</li>
-            </ul>
-        </section>
+                <div>
+                    <h2 class="title">Contacts</h2>
+                    <ul>
+                        <li class="location">Mogilev, Belarus</li>
+                        <li class="phone">
+                            <a class="phone-number" href="tel:80287256782">8 (025) 725-67-82</a>
+                        </li>
+                        <li class="mail">
+                            <a class="email" href="mailto:osmolovskii_sergei@mail.ru">osmolovskii_sergei@mail.ru</a>
+                        </li>
+                        <li class="github">
+                            <a class="my-github" href="https://github.com/SergeiOsmolovskii">SergeiOsmolovskii</a>
+                        </li>
+                    </ul>
+                </div>
 
-        <section class="language">
-            <h2 class="title">Language</h2>
-            <ul>
-                <li>English: A2 (Pre-Intermediate)</li>
-            </ul>
-        </section>
+            </section>
 
-        <section class="work-experience">
-            <h2 class="title">Work experience</h2>
-            <p>
-                I’m electrical engineer and I have no experience in commercial IT development.
-            </p>
-        </section>
+            <section class="technical-skills" id="skills">
+                <div class="wrapper">
+                    <h2 class="title">Technical skills</h2>
+                    <ul>
+                        <li>
+                            <div>
+                                <img src="./img/icon/html-icon.svg" alt="html-icon">
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="./img/icon/css-icon.svg" alt="css-icon">
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="./img/icon/javascript-icon.svg" alt="javascript-icon">
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="./img/icon/bootstrap-icon.svg" alt="bootstrap-icon">
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="./img/icon/figma-icon.svg" alt="figma-icon">
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="./img/icon/git-icon.svg" alt="git-icon">
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <img src="./img/icon/sass-icon.svg" alt="sass-icon">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
 
-        <section class="education">
-            <h2 class="title">Education</h2>
-            <h3>Belarusian-Russian University</h3>
-            <ul>
-                <li>Electric Drive and Automation of Industrial Units. Automatic Electric Drives (2013-2018).</li>
-                <li>Master’s degree course electrical power industry and electrical engineering (2018-2019).</li>
-            </ul>
-            <h3>Courses</h3>
-            <ul>
-                <li>Peter the Great St.Petersburg Polytechnic University. Intelligent Control Systems (2017).</li>
-            </ul>
-        </section>
+            <section class="language">
+                <div class="wrapper">
+                    <h2 class="title">Language</h2>
+                    <ul>
+                        <li>English: B1 (Intermediate)</li>
+                    </ul>
+                </div>
+            </section>
+        </aside>
 
-        <section class="sample-code">
-            <h2 class="title">Sample code</h2>
+        <aside class="user-information">
+            <section class="about-me" id="about_me">
+                <div class="wrapper">
+                    <h2 class="title">About me</h2>
+                    <p>
+                        I’ve been an electrical engineer for 3 years. And now i am going to change my profession. My
+                        goal is
+                        to master a new specialty for myself and continue to develop in the field of front-end.
+                    </p>
+                </div>
+            </section>
 
-            <pre>
-                <code>
-function validParentheses(par) {
-    const openBracket = ['(','[','{']; 
-    const closeBracket = [')',']','}'];
-    let stack = [];
-    for(let i=0; i &lt; par.length; i++) {
-        if (openBracket.includes(par[i])) {
-        stack.push(par[i]);
-        } else {
-            if (closeBracket.indexOf(par[i]) === openBracket.indexOf(stack[stack.length-1])) {
-                stack.pop();
-            } else return false; 
-        }   
-    }
-    if (stack.length == 0) {
-        return true;
-    } else return false;
+            <section class="work-experience" id="experience">
+                <div class="wrapper">
+
+                    <h2 class="title">My projects</h2>
+                    <div class="proj">
+                        <h3>Louvre</h3>
+                        <a href="https://rolling-scopes-school.github.io/sergeiosmolovskii-JSFEPRESCHOOL/museum/" target="_blank">
+                            <img src="./img/louvre_proj.jpg" alt="louvre">
+                        </a>
+                        <p>A landing page for the Louvre. Made using CSS Flexbox layout.</p>
+                    </div>
+                    <div class="proj">
+                        <h3>rmtex.by</h3>
+                        <a href="https://rmtex.by/" target="_blank">
+                            <img src="./img/rmtex_proj.jpg" alt="louvre">
+                        </a>
+                        <p>A landing page for repair services website. Made using SASS, CSS Flexbox layout and
+                            bootstrap, javascript for animations and feedback. </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="education" id="education">
+                <div class="wrapper">
+                    <h2 class="title">Education</h2>
+                    <h3>Belarusian-Russian University</h3>
+                    <ul>
+                        <li>Electric Drive and Automation of Industrial Units. Automatic Electric Drives
+                            (2013-2018).
+                        </li>
+                        <li>Master’s degree course electrical power industry and electrical engineering (2018-2019).
+                        </li>
+                    </ul>
+                    <h3>Courses</h3>
+                    <ul>
+                        <li>Peter the Great St.Petersburg Polytechnic University. Intelligent Control Systems
+                            (2017).
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="sample-code">
+                <div class="wrapper">
+
+                    <h2 class="title">Sample code</h2>
+
+                    <pre>
+                        <code>
+function sortByBit(arr) {
+    let countBit = (bit) => bit.toString(2).replace(/[0]/g,'').length;
+    arr.sort((a, b) => {
+        if (countBit(a) === countBit(b)) return a - b;
+        else return countBit(a) - countBit(b);
+    });
 }
-                </code>
-            </pre>
-        </section>
+                        </code>
+                    </pre>
+                </div>
+            </section>
+        </aside>
 
     </main>
 
@@ -129,7 +221,7 @@ function validParentheses(par) {
         </div>
 
     </footer>
-
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
