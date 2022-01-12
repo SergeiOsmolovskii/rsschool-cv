@@ -199,6 +199,14 @@ h3 {
     opacity: 1;
 }
 
+.proj a h3 {
+    font-size: 28px;
+}
+
+.proj a h3:hover {
+    transform: scale(1.2);
+}
+
 .work-experience p, .work-experience h3 {
     color: #bec5ca;
 }
