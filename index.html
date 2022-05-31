@@ -327,25 +327,6 @@
                     </ul>
                 </div>
             </section>
-
-            <section class="sample-code">
-                <div class="wrapper">
-
-                    <h2 class="title">Sample code</h2>
-
-                    <pre>
-                        <code>
-function sortByBit(arr) {
-    let countBit = (bit) => bit.toString(2).replace(/[0]/g,'').length;
-    arr.sort((a, b) => {
-        if (countBit(a) === countBit(b)) return a - b;
-        else return countBit(a) - countBit(b);
-    });
-}
-                        </code>
-                    </pre>
-                </div>
-            </section>
         </aside>
 
     </main>
